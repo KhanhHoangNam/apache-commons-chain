@@ -10,7 +10,7 @@ public class MyCatalog extends CatalogBase {
     public MyCatalog() {
         super();
         addCommand(MyCommandNamed.CMD_1.name(), new FirstCommand());
-        addCommand(MyCommandNamed.CHAIN_2.name(), new SecondCommand());
+        addCommand(MyCommandNamed.CMD_2.name(), new SecondCommand());
         addCommand(MyCommandNamed.CHAIN_1.name(), new MyChain());
     }
 }
